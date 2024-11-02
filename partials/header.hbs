@@ -2,13 +2,13 @@
     <div class="container">
         <section class="branding">
             <img src="https://picsum.photos/id/20/32/32" alt="Logo" class="logo">
-            <h1>Succulent Miracle Spray</h1>
+            <h1>Portafolio Jonathan Siliezar</h1>
         </section>
-        <nav>
-            <ul>
-                {{#each nav}}
-                    <li><a href="%BASE_URL%{{uri}}">{{label}}</a></li>
-                {{/each}}
+        <nav id="nav" class="">
+            <ul id="links">
+                <li><a href="#hero" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                <li><a href="#form" onclick="seleccionar(this)">SOBRE MI</a></li>
+                <li><a href="#conocimientos" onclick="seleccionar(this)">CONOCIMIENTOS</a></li>
             </ul>
             <button class="hamburger">
                 <span></span>
